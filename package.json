@@ -1,6 +1,7 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "bin": "./bin.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -38,7 +39,7 @@
     "arrowParens": "avoid",
     "trailingComma": "es5"
   },
-  "name": "herocoders",
+  "name": "@betafcc/herocoders",
   "author": "betafcc",
   "module": "dist/herocoders.esm.js",
   "size-limit": [

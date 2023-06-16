@@ -39,7 +39,10 @@ console.table(
     issues: v,
   }))
 )
-
-// Synchronization: 2
-// Backend: 1
-// Templates: 5
+// ┌───────┬───────────────────┬────────┐
+// │ (idx) │ component         │ issues │
+// ├───────┼───────────────────┼────────┤
+// │     0 │ "Synchronization" │      2 │
+// │     1 │ "Backend"         │      1 │
+// │     2 │ "Templates"       │      5 │
+// └───────┴───────────────────┴────────┘
