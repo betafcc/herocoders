@@ -1,0 +1,71 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "release:patch": "bash ./scripts/release.bash patch",
+    "release:minor": "bash ./scripts/release.bash minor",
+    "release:major": "bash ./scripts/release.bash major",
+    "ts-node-dev": "npx ts-node-dev --respawn -T --compiler-options '{\"module\":\"commonjs\"}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-jsdoc"
+    ],
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "es5"
+  },
+  "name": "herocoders",
+  "author": "betafcc",
+  "module": "dist/herocoders.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/herocoders.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/herocoders.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-jsdoc": "^0.4.2",
+    "size-limit": "^8.2.4",
+    "ts-jest": "^29.1.0",
+    "ts-node-dev": "^2.0.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.5.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.6"
+  }
+}

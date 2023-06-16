@@ -1,0 +1,4601 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 14,
+  "issues": [
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51268",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51268",
+      "key": "SP-164",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:38:10.650+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 2.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12121": null,
+        "customfield_12087": null,
+        "customfield_12120": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "customfield_12125": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned",
+          "priority"
+        ],
+        "customfield_12126": null,
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+            "id": "10131",
+            "name": "Templates"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12078": null,
+        "customfield_12111": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "subtasks": [],
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12063": null,
+        "customfield_12184": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12068": null,
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-164/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:17:50.011+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-164/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.639+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:38:10.646+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "customfield_12030": null,
+        "timeoriginalestimate": 0,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Currently, when a new global template is created, it is disabled/OFF by default for all issue types and all projects. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We want to reverse it as we think it will be more natural and aligned with CFJ behavior. "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01ief:",
+        "customfield_12037": null,
+        "customfield_12029": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Global templates context - ON for all project and issue types by default",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12022": [],
+        "customfield_12143": null,
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_2_*:*_51455748_*|*_3_*:*_1_*:*_1110412_*|*_10449_*:*_1_*:*_51290_*|*_10100_*:*_1_*:*_0",
+        "customfield_12144": null,
+        "customfield_12023": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51267",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51267",
+      "key": "SP-163",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:37:29.056+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_11200": null,
+        "customfield_12136": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12121": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": null,
+        "labels": [
+          "cloned",
+          "hire-onboarding",
+          "priority"
+        ],
+        "customfield_11700": null,
+        "customfield_12118": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12078": null,
+        "customfield_12111": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "customfield_12182": null,
+        "customfield_12061": null,
+        "subtasks": [],
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12067": null,
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-163/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:37:29.001+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-163/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.518+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:37:29.043+0200",
+        "customfield_12152": null,
+        "customfield_12030": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12033": null,
+        "customfield_12154": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We want "
+                },
+                {
+                  "type": "text",
+                  "text": "Jira Service Management",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " agents to know when checklist is visible to customers, so they don’t put any sensitive/internal information on the checklist. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "That applies only to the case when a "
+                },
+                {
+                  "type": "text",
+                  "text": "full checklist",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " is visible to  "
+                },
+                {
+                  "type": "text",
+                  "text": "Jira Service Management",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "  customers. We don’t care/handle showing the progress only. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "url": "https://herocoders.atlassian.net/wiki/spaces/IC/pages/1192230913/Enable+checklist+in+JSM+customer+view"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_12153": null,
+        "customfield_10011": "1|i01idr:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "customfield_10007": null,
+        "security": null,
+        "summary": " If checklist is visible to JSM customers, show info icon in toolbar",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_53796565_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12027": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51266",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51266",
+      "key": "SP-162",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:37:45.362+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12093": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 2.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 2.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12121": "@Jennifer Choban can you explain this one to me? I have no idea what this one is",
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12120": "false",
+        "customfield_12087": null,
+        "customfield_12123": "2023-04-27T09:48:32.000+0200",
+        "customfield_12122": "Wojciech Wardaszko",
+        "customfield_12089": null,
+        "customfield_12125": "true",
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12124": "false",
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": "false",
+        "labels": [
+          "cloned"
+        ],
+        "customfield_11700": null,
+        "customfield_12118": "false",
+        "customfield_12117": "2023-04-27T09:52:35.000+0200",
+        "customfield_12119": "false",
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10128",
+            "id": "10128",
+            "name": "Synchronization"
+          }
+        ],
+        "customfield_12077": null,
+        "customfield_12110": null,
+        "customfield_12076": [],
+        "customfield_12112": 2.0,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": 2.0,
+        "customfield_12113": 0.0,
+        "customfield_12116": "Michał Orzechowski",
+        "customfield_12115": "@Wojciech Wardaszko this is a copy of ICP project needed for interviews. Will make announcement on Slack. ",
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "subtasks": [],
+        "customfield_12182": "2023-04-27T09:52:35.000+0200",
+        "customfield_12061": null,
+        "customfield_12064": null,
+        "customfield_12185": "true",
+        "customfield_12184": "false",
+        "customfield_12063": null,
+        "customfield_12066": null,
+        "customfield_12187": null,
+        "customfield_12065": null,
+        "customfield_12186": "false",
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=62812e49bdf2f30067d1d42b",
+          "accountId": "62812e49bdf2f30067d1d42b",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/62812e49bdf2f30067d1d42b/b542c21a-35a0-4e38-a7ea-5db225824b52/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/62812e49bdf2f30067d1d42b/b542c21a-35a0-4e38-a7ea-5db225824b52/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/62812e49bdf2f30067d1d42b/b542c21a-35a0-4e38-a7ea-5db225824b52/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/62812e49bdf2f30067d1d42b/b542c21a-35a0-4e38-a7ea-5db225824b52/32"
+          },
+          "displayName": "Wojciech Wardaszko",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_12102": null,
+        "customfield_10200": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-162/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/2",
+          "id": "2",
+          "description": "A new feature of the product, which has yet to be developed.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10311?size=medium",
+          "name": "New Feature",
+          "subtask": false,
+          "avatarId": 10311,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": 0,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": 0,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:37:45.328+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-162/watchers",
+          "watchCount": 3,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.479+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:37:45.353+0200",
+        "customfield_12152": 0.0,
+        "customfield_12151": 2.0,
+        "customfield_12030": null,
+        "timeoriginalestimate": 0,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": null,
+        "customfield_10011": "1|i01ie7:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Sync the status of new issue created from a checklist item with that item's status",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12022": [],
+        "customfield_12143": null,
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_53812908_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_10001": "2023-04-27T09:52:35.761+0200",
+        "customfield_12026": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_12027": null,
+        "customfield_10004": null,
+        "customfield_10400": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51265",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51265",
+      "key": "SP-161",
+      "fields": {
+        "customfield_12091": null,
+        "statuscategorychangedate": "2023-04-27T13:38:39.162+0200",
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10244",
+          "value": "Not security related",
+          "id": "10244"
+        },
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_11200": null,
+        "customfield_12136": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12121": null,
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": null,
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "timeestimate": 20640,
+        "aggregatetimeoriginalestimate": 28800,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+            "id": "10131",
+            "name": "Templates"
+          }
+        ],
+        "customfield_12077": null,
+        "customfield_12110": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 20640,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "subtasks": [],
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12063": null,
+        "customfield_12184": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=60a6ca888cbda70068e15f66",
+          "accountId": "60a6ca888cbda70068e15f66",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png"
+          },
+          "displayName": "Hervé Mutombo",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 20640,
+          "percent": 0
+        },
+        "customfield_12067": null,
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 20640,
+          "percent": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-161/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/10158",
+          "id": "10158",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug (hot-fix)",
+          "subtask": false,
+          "avatarId": 10303,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:38:39.111+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-161/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.475+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:38:39.153+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 28800,
+        "customfield_12030": null,
+        "customfield_12033": null,
+        "customfield_12154": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Steps to reproduce:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "The issue is not easy to reproduce but one has simply have to:"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Load the issue checklist page under project page"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expected behavior"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The page should load"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Actual behavior"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The page is not loaded and this exception is logged in the browser’s console:"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "codeBlock",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "text",
+                  "text": "templates-page.2c86be4509e0bc86355a.js:1 Uncaught (in promise) TypeError: Cannot read properties of null (reading '-1')\r\n    at Object.isTemplateDefaultForAll (templates-page.2c86be4509e0bc86355a.js:1:76565)\r\n    at r.value (templates-page.2c86be4509e0bc86355a.js:1:290845)\r\n    at templates-page.2c86be4509e0bc86355a.js:1:294827\r\n    at Array.map (<anonymous>)\r\n    at r.value (templates-page.2c86be4509e0bc86355a.js:1:294802)\r\n    at Ua (vendors.ab61a5982084e35db9ae.js:318:69070)\r\n    at Ha (vendors.ab61a5982084e35db9ae.js:318:68865)\r\n    at fc (vendors.ab61a5982084e35db9ae.js:318:103984)\r\n    at rc (vendors.ab61a5982084e35db9ae.js:318:87762)\r\n    at $s (vendors.ab61a5982084e35db9ae.js:318:84900)\r\n    at vendors.ab61a5982084e35db9ae.js:318:44963\r\n    at L.unstable_runWithPriority (vendors.ab61a5982084e35db9ae.js:16:3735)\r\n    at ri (vendors.ab61a5982084e35db9ae.js:318:44665)\r\n    at ai (vendors.ab61a5982084e35db9ae.js:318:44901)\r\n    at C (vendors.ab61a5982084e35db9ae.js:318:44836)\r\n    at Ys (vendors.ab61a5982084e35db9ae.js:318:81677)\r\n    at ya (vendors.ab61a5982084e35db9ae.js:318:61597)\r\n    at templates-page.2c86be4509e0bc86355a.js:1:255445\r\n    at <anonymous>"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01idj:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "customfield_10007": null,
+        "security": null,
+        "summary": " Templates do not load under Project Pages",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_10000": "1_*:*_1_*:*_53866711_*|*_10100_*:*_1_*:*_0",
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10400": null,
+        "customfield_12027": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51264",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51264",
+      "key": "SP-160",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:38:51.466+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_11200": null,
+        "customfield_12136": null,
+        "customfield_12135": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12121": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": null,
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          }
+        ],
+        "customfield_12077": null,
+        "customfield_12110": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "customfield_12182": null,
+        "subtasks": [],
+        "customfield_12061": null,
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12066": null,
+        "customfield_12187": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12067": null,
+        "customfield_12103": null,
+        "customfield_12102": null,
+        "customfield_10200": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-160/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:38:51.412+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-160/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.408+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:38:51.449+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "The screenshot shows missing “make optional/required” and “rename” actions. Let’s make them available if the change does not break anything in the background."
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "id": "UNKNOWN_MEDIA_image-20220711-141949.png",
+                    "type": "file",
+                    "collection": "",
+                    "width": 1426,
+                    "height": 779
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01idr:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Locked global items - make \"optional\" and \"rename\" options/actions available",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12144": null,
+        "customfield_10000": "1_*:*_1_*:*_53879086_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_12027": null,
+        "customfield_10004": null,
+        "customfield_10400": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51263",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51263",
+      "key": "SP-159",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:39:16.195+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "customfield_12135": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12121": null,
+        "customfield_12087": null,
+        "customfield_12120": null,
+        "customfield_12123": null,
+        "customfield_12089": null,
+        "customfield_12122": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": null,
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10128",
+            "id": "10128",
+            "name": "Synchronization"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12078": null,
+        "customfield_12111": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "subtasks": [],
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=6231a277867a4e0070963ebe",
+          "accountId": "6231a277867a4e0070963ebe",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png"
+          },
+          "displayName": "Andres Hevia",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12067": null,
+        "customfield_12103": null,
+        "customfield_12102": null,
+        "customfield_10200": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-159/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:39:16.155+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-159/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.399+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:39:16.181+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 1
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Summary"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Many customers are sending support requests asking for functionalities they had on Checklist for Jira Server in Issue Checklist Pro."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Currently, there are features in Issue Checklist Pro that give a similar, if not exactly the same functionality as they had in Checklist For Jira Server e.g.: Checklists that appear in all issues or in issues of a specific type, called Checklist Definitions in CFJS, can be done through Templates in IC Pro. "
+                },
+                {
+                  "type": "text",
+                  "text": "These features need to be listed.",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "It is also important to clarify the difference between certain terms and names, e.g.: a checklist in CFJS is a “custom field”, but in IC Pro it is pure text. "
+                },
+                {
+                  "type": "text",
+                  "text": "These terms need to be clarified.",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01idz:",
+        "customfield_12037": null,
+        "customfield_12029": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Create CFJS-to-IC funtionalities comparison table in user documentation",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_53903818_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "customfield_10400": null,
+        "customfield_12027": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51262",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51262",
+      "key": "SP-158",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:39:24.510+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12121": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "customfield_12126": null,
+        "labels": [
+          "cloned",
+          "priority",
+          "pro-only"
+        ],
+        "customfield_11700": null,
+        "customfield_12118": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          },
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+            "id": "10131",
+            "name": "Templates"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12060": null,
+        "customfield_12181": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "customfield_12182": null,
+        "customfield_12061": null,
+        "subtasks": [],
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12066": null,
+        "customfield_12187": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-158/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Created by Jira Agile - do not edit or delete. Issue type for a user story.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10315,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:39:24.471+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-158/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.384+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:39:24.498+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Let's make it simple and add a template with the same name as label added when an issue is created or updated:"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "on /issue-updated, if the checklist items already exist then append new template"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "on /issue-created, if there is YAML content or default template???"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "should we enable that functionality with a switch/toggle in the configuration? (probably not to make it simple as having a template with the same name as a label will be extremely rare)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01idz:",
+        "customfield_12037": null,
+        "customfield_10005": null,
+        "customfield_12029": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Apply template according to label added to the issue",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12022": [],
+        "customfield_12143": null,
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_10000": "1_*:*_1_*:*_53912145_*|*_10100_*:*_1_*:*_0",
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_10004": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51261",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51261",
+      "key": "SP-157",
+      "fields": {
+        "customfield_12091": null,
+        "statuscategorychangedate": "2023-04-27T13:40:05.222+0200",
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_11200": null,
+        "customfield_12136": null,
+        "customfield_12135": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12121": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12089": null,
+        "customfield_12122": null,
+        "customfield_12125": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12126": null,
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "timeestimate": 11040,
+        "aggregatetimeoriginalestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          },
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+            "id": "10131",
+            "name": "Templates"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12078": null,
+        "customfield_12111": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 11040,
+        "customfield_12060": null,
+        "customfield_12181": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "customfield_12061": null,
+        "subtasks": [],
+        "customfield_12182": null,
+        "customfield_12064": null,
+        "customfield_12185": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12068": null,
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 11040,
+          "percent": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12104": null,
+        "customfield_12225": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 11040,
+          "percent": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-157/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:40:05.183+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-157/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:52.287+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:40:05.208+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "customfield_12030": null,
+        "timeoriginalestimate": 0,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "When saving a template in the “edit template” dialog, the “item input” becomes invisible during the Save operation, making the dialog height smaller and causing an unpleasant visual effect. "
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "See attached screenshot for additional improvements:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "orderedList",
+                      "attrs": {
+                        "order": 1
+                      },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "align “changed” label (move it close to the template name so its location depends on the template name length)"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "align template name so it is visually in the same horizontal position as the content below"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "slightly increase space between buttons"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_12153": null,
+        "customfield_10011": "1|i01idb:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "customfield_10007": null,
+        "security": null,
+        "summary": " Edit template UI improvements",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_53952959_*|*_10100_*:*_1_*:*_0",
+        "customfield_12144": null,
+        "customfield_12023": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "customfield_10400": null,
+        "customfield_12027": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51260",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51260",
+      "key": "SP-156",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:40:22.889+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "customfield_12135": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12088": null,
+        "customfield_12000": null,
+        "customfield_12121": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12089": null,
+        "customfield_12122": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12126": null,
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "customfield_12077": null,
+        "customfield_12110": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12060": null,
+        "customfield_12181": null,
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "subtasks": [],
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12066": null,
+        "customfield_12187": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=60a6ca888cbda70068e15f66",
+          "accountId": "60a6ca888cbda70068e15f66",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/HM-0.png"
+          },
+          "displayName": "Hervé Mutombo",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12067": null,
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12104": null,
+        "customfield_12225": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-156/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:40:22.857+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-156/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.889+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:40:22.877+0200",
+        "customfield_12152": null,
+        "customfield_12030": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "This is the message thrown in the console when running "
+                },
+                {
+                  "type": "text",
+                  "text": "yarn test",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "codeBlock",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "text",
+                  "text": "console.warn\r\n      @atlaskit/layer has been deprecated. It is an internal component and should not be used directly.\r\n\r\n      at Object.<anonymous> (node_modules/@atlaskit/droplist/node_modules/@atlaskit/layer/dist/cjs/components/Layer.js:71:11)\r\n      at Object.<anonymous> (node_modules/@atlaskit/droplist/node_modules/@atlaskit/layer/dist/cjs/index.js:15:37)\r\n\r\n    console.warn\r\n      @atlaskit/droplist has been deprecated. It is an internal component and should not be used directly.\r\n\r\n      at Object.<anonymous> (node_modules/@atlaskit/droplist/dist/cjs/components/Droplist.js:59:11)\r\n      at Object.<anonymous> (node_modules/@atlaskit/droplist/dist/cjs/index.js:33:40)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "The aim of this ticket is to fix the cause of this warning. "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_12153": null,
+        "customfield_10011": "1|i01id3:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Fix @atlaskit/layer deprecation",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12144": null,
+        "customfield_10000": "1_*:*_1_*:*_53973019_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12027": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51259",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51259",
+      "key": "SP-155",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:40:30.580+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "customfield_12135": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12088": null,
+        "customfield_12121": null,
+        "customfield_12000": null,
+        "customfield_12087": null,
+        "customfield_12120": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "customfield_12125": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/4",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/minor.svg",
+          "name": "Minor",
+          "id": "4"
+        },
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned",
+          "hire-onboarding"
+        ],
+        "customfield_12126": null,
+        "customfield_11700": null,
+        "customfield_12118": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10130",
+            "id": "10130",
+            "name": "Backend"
+          }
+        ],
+        "customfield_12077": null,
+        "customfield_12110": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12181": null,
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "subtasks": [],
+        "customfield_12182": null,
+        "customfield_12061": null,
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12066": null,
+        "customfield_12187": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "customfield_12068": null,
+        "reporter": null,
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12104": null,
+        "customfield_12225": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-155/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:40:30.540+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-155/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.499+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:40:30.565+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We want to disable self-mentioning notifications. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "When the user is mentioned, and the notifications are enabled in "
+                },
+                {
+                  "type": "text",
+                  "text": "Global Settings",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://herocoders.atlassian.net/wiki/spaces/IC/pages/1196130305/Notify+a+mentioned+assigned+user"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", the user gets an email. It is a handy feature, but we want to filter the users, so I don’t get notifications when I mention myself. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We don’t want any additional configuration for it. Let’s just change the code and make it a default behaviour that self notification email is not sent. "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01icv:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Disable self-mentioning notifications",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_53981106_*|*_10100_*:*_1_*:*_0",
+        "customfield_12023": null,
+        "customfield_12144": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51258",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51258",
+      "key": "SP-154",
+      "fields": {
+        "customfield_12091": null,
+        "statuscategorychangedate": "2023-04-27T13:43:14.626+0200",
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12121": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "customfield_12125": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12126": null,
+        "customfield_11700": null,
+        "customfield_12118": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12060": null,
+        "customfield_12181": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "customfield_12061": null,
+        "subtasks": [],
+        "customfield_12182": null,
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12184": null,
+        "customfield_12063": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_12102": null,
+        "customfield_10200": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-154/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:43:14.578+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-154/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.490+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_12049": null,
+        "customfield_10301": null,
+        "updated": "2023-04-27T13:43:14.607+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "customfield_12030": null,
+        "timeoriginalestimate": 0,
+        "customfield_12033": null,
+        "customfield_12154": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We want to warn the user that deleting the template will also delete corresponding data from the issue."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We currently display only this:"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "id": "UNKNOWN_MEDIA_image-20220914-095545.png",
+                    "type": "file",
+                    "collection": "",
+                    "width": 368,
+                    "height": 167
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "And we want something like this:"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "id": "UNKNOWN_MEDIA_image-20220914-095835.png",
+                    "type": "file",
+                    "collection": "",
+                    "width": 512,
+                    "height": 206
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Title: Are you sure you want to delete this global template?"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "Text: Deleting the global template will also remove the toggle status for this template in all related Jira issues."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Additional improvements / fixes"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Refactor files to Typescript"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Add types"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Enable Calendar and Emoji picker for Global Templates but keep Mention picker disabled"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01ic7:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Improve Global Template delete confirmation dialog",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_54145167_*|*_10100_*:*_1_*:*_0",
+        "customfield_12144": null,
+        "customfield_12023": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_12028": null,
+        "customfield_10003": null,
+        "customfield_10400": null,
+        "customfield_12027": null,
+        "customfield_10004": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51257",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51257",
+      "key": "SP-153",
+      "fields": {
+        "customfield_12091": null,
+        "statuscategorychangedate": "2023-04-27T13:43:23.790+0200",
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12121": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12089": null,
+        "customfield_12122": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned",
+          "hire-onboarding"
+        ],
+        "customfield_12126": null,
+        "customfield_11700": null,
+        "customfield_12118": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12106": null,
+        "customfield_12227": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12060": null,
+        "customfield_12181": null,
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "subtasks": [],
+        "customfield_12182": null,
+        "customfield_12061": null,
+        "customfield_12064": null,
+        "customfield_12185": null,
+        "customfield_12063": null,
+        "customfield_12184": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12068": null,
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12104": null,
+        "customfield_12225": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-153/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:43:23.747+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-153/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.487+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:43:23.775+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "When accessing templates list from the project page, there is an unpleasant flash of \"no templates found\" message. "
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "I think it stays there until list of templates is retrieved."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Let's show some progress spinner when loading instead of the incorrect message. Or, if we can get the initial list of templates from server when page loads, that would work too. "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_12153": null,
+        "customfield_10011": "1|i01icn:",
+        "customfield_12037": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Remove the flash of \"no templates found\" on the templates list in project page",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_10000": "1_*:*_1_*:*_54154327_*|*_10100_*:*_1_*:*_0",
+        "customfield_12144": null,
+        "customfield_12023": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51256",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51256",
+      "key": "SP-152",
+      "fields": {
+        "statuscategorychangedate": "2023-04-27T13:43:33.690+0200",
+        "customfield_12091": null,
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "fixVersions": [],
+        "customfield_12133": null,
+        "customfield_11200": null,
+        "customfield_12136": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_12129": 0.0,
+        "customfield_10500": null,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12121": null,
+        "customfield_12087": null,
+        "customfield_12120": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "customfield_12125": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12126": null,
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+            "id": "10131",
+            "name": "Templates"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12111": null,
+        "customfield_12078": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12183": null,
+        "customfield_12062": null,
+        "subtasks": [],
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "customfield_12064": null,
+        "customfield_12185": null,
+        "customfield_12063": null,
+        "customfield_12184": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12186": null,
+        "customfield_12065": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=621de26c59c0740069d73386",
+          "accountId": "621de26c59c0740069d73386",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/FK-1.png",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/FK-1.png",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/FK-1.png",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/FK-1.png"
+          },
+          "displayName": "Farid Khaheshi",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "atlassian"
+        },
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_10200": null,
+        "customfield_12102": null,
+        "customfield_12105": null,
+        "customfield_12225": null,
+        "customfield_12104": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-152/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Created by Jira Agile - do not edit or delete. Issue type for a user story.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10315,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "aggregatetimespent": null,
+        "customfield_12213": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:43:33.631+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-152/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.447+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:43:33.674+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12154": null,
+        "customfield_12033": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "When a user renames a status, we should update list of templates based on the new `statuses`."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_12153": null,
+        "customfield_10011": "1|i01ic7:",
+        "customfield_12037": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_12029": null,
+        "security": null,
+        "customfield_10007": null,
+        "summary": " Add support for renaming statuses to Templates with non-default statuses",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12022": [],
+        "customfield_12143": null,
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12023": null,
+        "customfield_10000": "1_*:*_1_*:*_54164268_*|*_10100_*:*_1_*:*_0",
+        "customfield_12144": null,
+        "customfield_10001": null,
+        "customfield_12026": null,
+        "customfield_12025": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_10004": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    },
+    {
+      "expand": "customfield_12068.properties,operations,versionedRepresentations,editmeta,customfield_11700.requestTypePractice,changelog,renderedFields",
+      "id": "51255",
+      "self": "https://herocoders.atlassian.net/rest/api/3/issue/51255",
+      "key": "SP-151",
+      "fields": {
+        "customfield_12091": null,
+        "statuscategorychangedate": "2023-04-27T13:43:43.416+0200",
+        "customfield_12090": null,
+        "customfield_12095": null,
+        "customfield_12094": null,
+        "customfield_12130": 0.0,
+        "customfield_12096": null,
+        "customfield_12132": 1.0,
+        "customfield_12131": 0.0,
+        "customfield_12134": null,
+        "customfield_12133": null,
+        "fixVersions": [],
+        "customfield_12136": null,
+        "customfield_11200": null,
+        "resolution": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_12135": null,
+        "customfield_12138": null,
+        "customfield_12137": null,
+        "customfield_10500": null,
+        "customfield_12129": 0.0,
+        "customfield_12128": 0.0,
+        "customfield_10900": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10901": null,
+        "customfield_12080": null,
+        "lastViewed": null,
+        "customfield_12082": null,
+        "customfield_12081": null,
+        "customfield_12084": null,
+        "customfield_12083": null,
+        "customfield_12086": null,
+        "customfield_12085": null,
+        "customfield_12000": null,
+        "customfield_12088": null,
+        "customfield_12121": null,
+        "customfield_12120": null,
+        "customfield_12087": null,
+        "customfield_12123": null,
+        "customfield_12122": null,
+        "customfield_12089": null,
+        "priority": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_12125": null,
+        "customfield_12124": null,
+        "customfield_12127": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/customFieldOption/10257",
+          "value": "Not applicable",
+          "id": "10257"
+        },
+        "labels": [
+          "cloned"
+        ],
+        "customfield_12126": null,
+        "customfield_12118": null,
+        "customfield_11700": null,
+        "customfield_12117": null,
+        "customfield_12119": null,
+        "aggregatetimeoriginalestimate": 0,
+        "timeestimate": 0,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "status": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/status/10100",
+          "description": "",
+          "iconUrl": "https://herocoders.atlassian.net/images/icons/statuses/closed.png",
+          "name": "Done",
+          "id": "10100",
+          "statusCategory": {
+            "self": "https://herocoders.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [
+          {
+            "self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+            "id": "10129",
+            "name": "Frontend"
+          }
+        ],
+        "customfield_12110": null,
+        "customfield_12077": null,
+        "customfield_12076": [],
+        "customfield_12112": null,
+        "customfield_12078": null,
+        "customfield_12111": null,
+        "customfield_12114": null,
+        "customfield_12113": null,
+        "customfield_12116": null,
+        "customfield_12115": null,
+        "customfield_12228": null,
+        "customfield_12227": null,
+        "customfield_12106": null,
+        "customfield_12109": null,
+        "customfield_12108": null,
+        "aggregatetimeestimate": 0,
+        "customfield_12181": null,
+        "customfield_12060": null,
+        "creator": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png"
+          },
+          "displayName": "Automation for Jira",
+          "active": true,
+          "timeZone": "Europe/Berlin",
+          "accountType": "app"
+        },
+        "customfield_12062": null,
+        "customfield_12183": null,
+        "subtasks": [],
+        "customfield_12061": null,
+        "customfield_12182": null,
+        "customfield_12185": null,
+        "customfield_12064": null,
+        "customfield_12063": null,
+        "customfield_12184": null,
+        "customfield_12187": null,
+        "customfield_12066": null,
+        "customfield_12065": null,
+        "customfield_12186": null,
+        "customfield_12068": null,
+        "reporter": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=557058%3Ab0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "accountId": "557058:b0926e6a-bbb4-460e-a2c5-37858a84211d",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:b0926e6a-bbb4-460e-a2c5-37858a84211d/f0ae6bf3-c4a0-4871-92b9-cfc63b058717/32"
+          },
+          "displayName": "Jack Hunter",
+          "active": true,
+          "timeZone": "Europe/Warsaw",
+          "accountType": "atlassian"
+        },
+        "customfield_12067": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_12103": null,
+        "customfield_12102": null,
+        "customfield_10200": null,
+        "customfield_12105": null,
+        "customfield_12104": null,
+        "customfield_12225": null,
+        "customfield_12217": null,
+        "customfield_11800": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-151/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "issuetype": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issuetype/4",
+          "id": "4",
+          "description": "An improvement or enhancement to an existing feature or task.",
+          "iconUrl": "https://herocoders.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
+          "name": "Improvement",
+          "subtask": false,
+          "avatarId": 10310,
+          "hierarchyLevel": 0
+        },
+        "customfield_12051": "",
+        "timespent": null,
+        "customfield_12052": 0.0,
+        "customfield_12055": null,
+        "project": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/project/11349",
+          "id": "11349",
+          "key": "SP",
+          "name": "Sample Project",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159",
+            "24x24": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=small",
+            "16x16": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=xsmall",
+            "32x32": "https://herocoders.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/11159?size=medium"
+          }
+        },
+        "customfield_12211": null,
+        "customfield_12056": null,
+        "customfield_12213": null,
+        "aggregatetimespent": null,
+        "customfield_11400": null,
+        "customfield_10700": null,
+        "customfield_12209": null,
+        "resolutiondate": "2023-04-27T13:43:43.373+0200",
+        "workratio": 0,
+        "watches": {
+          "self": "https://herocoders.atlassian.net/rest/api/3/issue/SP-151/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2023-04-26T22:40:49.406+0200",
+        "customfield_12043": null,
+        "customfield_12045": null,
+        "customfield_12048": null,
+        "customfield_10301": null,
+        "customfield_12049": null,
+        "updated": "2023-04-27T13:43:43.399+0200",
+        "customfield_12152": null,
+        "customfield_12151": null,
+        "timeoriginalestimate": 0,
+        "customfield_12030": null,
+        "customfield_12033": null,
+        "customfield_12154": null,
+        "customfield_12153": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "id": "UNKNOWN_MEDIA_image-20220720-110604.png",
+                    "type": "file",
+                    "collection": "",
+                    "width": 916,
+                    "height": 233
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10011": "1|i01ibz:",
+        "customfield_12037": null,
+        "customfield_12029": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "summary": " Don't show empty global template on issue page",
+        "customfield_12141": null,
+        "customfield_12140": null,
+        "customfield_12143": null,
+        "customfield_12022": [],
+        "customfield_12142": null,
+        "customfield_12024": null,
+        "customfield_12144": null,
+        "customfield_12023": null,
+        "customfield_10000": "1_*:*_1_*:*_54174032_*|*_10100_*:*_1_*:*_0",
+        "customfield_12026": null,
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_12025": null,
+        "customfield_10003": null,
+        "customfield_12028": null,
+        "customfield_10004": null,
+        "customfield_12027": null,
+        "customfield_10400": null,
+        "customfield_12139": null,
+        "environment": null,
+        "duedate": null
+      }
+    }
+  ]
+}
