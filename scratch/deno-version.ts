@@ -2,10 +2,11 @@
 
 // -- data extraction
 const HOST = 'https://herocoders.atlassian.net/rest/api/3'
+const PROJECT = 'SP'
 
 const [components, search] = await Promise.all([
-  fetch(`${HOST}/project/SP/components`).then(r => r.json()),
-  fetch(`${HOST}/search?jql=project=SP`).then(r => r.json()),
+  fetch(`${HOST}/project/${PROJECT}/components`).then(r => r.json()),
+  fetch(`${HOST}/search?jql=project=${PROJECT}`).then(r => r.json()),
 ])
 
 // -- data normalization
@@ -23,7 +24,7 @@ const table = search.issues.flatMap(issue =>
 const woLead = new Set(components.filter(c => !c.lead).map(c => c.id))
 
 const result = table
-  .filter(row => row.project.key === 'SP' && woLead.has(row.component.id))
+  .filter(row => row.project.key === PROJECT && woLead.has(row.component.id))
   // looks scary but it's a standard `groupby` in reducer form
   .reduce((acc, next) => {
     const cid = next.component.id
