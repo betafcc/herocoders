@@ -1,5 +1,17 @@
 # Herocoders
 
+
+## Usage
+
+```sh
+npx @betafcc/herocoders
+```
+
+![result](output.png)
+
+
+## Explanation
+
 In truth, for a simple task like this, I'd do a single deno script file:
 
 ```ts
