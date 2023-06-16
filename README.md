@@ -73,8 +73,6 @@ But to show off some 'production-level' good practices, I will do a complete boi
 - formatting
 - linting
 - testing
-- docs
-- github pages
 - github hooks for ci
 - github hooks for npm publish on merge main
 
@@ -85,12 +83,6 @@ so I don't worry about building for 1000 of environments correctly and I just ne
 
 ```sh
 npx tsdx create herocoders-node
-```
-
-If I give it a bit more time, I add some elements commonly used by libs on the [fp-ts ecossytem](https://gcanti.github.io/fp-ts/ecosystem/)
-
-```sh
-npm i --save-dev prettier prettier-plugin-jsdoc docs-ts
 ```
 
 Plus a [personal script](./scripts/release.bash) for making release easier, by automating git tagging, package.json version updating, and avoid triggering redundant github actions
