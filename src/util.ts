@@ -1,5 +1,6 @@
 /**
  * @example
+ *   import { groupby } from '@betafcc/herocoders/util'
  *   groupby(
  *     e => e[0],
  *     [
@@ -23,6 +24,7 @@ export const groupby = <T>(key: (x: T) => string | number, xs: Array<T>) =>
 
 /**
  * @example
+ *   import { apply } from '@betafcc/herocoders/util'
  *   apply(xs => xs.length, {
  *     '0': [
  *       [0, 'a'],

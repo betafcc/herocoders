@@ -1,0 +1,6 @@
+{
+  "enforceVersion": false,
+  "parseCompilerOptions": {
+    "module": "esnext"
+  }
+}

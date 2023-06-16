@@ -1,10 +1,3 @@
-// I tend to put at least some usage examples on module-level documentation
-/**
- * @example
- *   import { api } from './Api'
- *   api.search()
- */
-
 import { fetch } from 'cross-fetch'
 
 // -- Typing section
@@ -72,7 +65,10 @@ export type Search = {
 // -- Implementation section
 
 export class Api {
-  // utility that uses a default fetch implementation and fetches from the provided `host`
+  /**
+   * Utility that uses a default fetch implementation and fetches from the
+   * provided `host`
+   */
   static create(host: string) {
     return new Api(enpoint => fetch(host + enpoint).then(r => r.json()))
   }

@@ -19,7 +19,7 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "docs": "npm run docs-ts",
+    "docs": "docs-ts",
     "release:patch": "bash ./scripts/release.bash patch",
     "release:minor": "bash ./scripts/release.bash minor",
     "release:major": "bash ./scripts/release.bash major",
@@ -41,6 +41,7 @@
     "trailingComma": "es5"
   },
   "name": "@betafcc/herocoders",
+  "homepage": "https://github.com/betafcc/herocoders",
   "author": "betafcc",
   "module": "dist/herocoders.esm.js",
   "size-limit": [
@@ -56,6 +57,7 @@
   "devDependencies": {
     "@jest/globals": "^29.5.0",
     "@size-limit/preset-small-lib": "^8.2.4",
+    "docs-ts": "^0.7.2",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
     "prettier": "^2.8.8",

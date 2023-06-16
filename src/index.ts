@@ -1,3 +1,8 @@
+/**
+ * @example
+ *   import { main } from '@betafcc/herocoders'
+ *   main()
+ */
 import * as util from './util'
 import { Api, api } from './Api'
 
