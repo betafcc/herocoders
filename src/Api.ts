@@ -34,32 +34,7 @@ export type Search = {
   startAt: number
   maxResults: number
   total: number
-  issues: Array<{
-    expand: string
-    id: string
-    self: string
-    key: string
-    fields: {
-      project: {
-        self: string
-        id: string
-        key: string
-        name: string
-        projectTypeKey: string
-        simplified: boolean
-        avatarUrls: { [key: string]: string }
-      }
-      components: Array<{
-        self: string
-        id: string
-        name: string
-        iconUrl?: string
-        description?: string
-      }>
-      // I don't care about other fields for this task
-      [x: string]: unknown
-    }
-  }>
+  issues: []
 }
 
 // -- Implementation section
@@ -102,11 +77,15 @@ export class Api {
    * Retrieve a list of issues for `project` along with the fields describing
    * them (e.g., 'components')
    */
-  search(project: string) {
+  countBy(project: string, componentName: string) {
     const params = new URLSearchParams()
-    params.set('jql', `project=${project}`)
+    params.set(
+      'jql',
+      `project=${project} and component is not empty and component = ${componentName}`
+    )
+    params.set('maxResults', '0')
 
-    return this.get(`/search?${params}`) as Promise<Search>
+    return this.get(`/search?${params}`).then(r => (r as Search).total)
   }
 }
 
